@@ -1,0 +1,45 @@
+@import '../src/assets/styles/ProductCard.scss';
+@import '../src/assets/styles/Header.scss';
+@import '../src/assets/styles/CreateProduct.scss';
+@import '../src/assets/styles/Basket.scss';
+@import '../src/assets/styles/ProdCategory.scss';
+@import '../src/assets/styles/Home.scss';
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.conteiner{
+  width: 80%;
+  margin: 0 auto;
+}
+input{
+  outline: none;
+  border: none;
+}
+body::-webkit-scrollbar{
+height:30px ; 
+}
+body::-webkit-scrollbar-track{
+  background-color:#121517;
+}
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(265deg, #1f365f 6.79%, #0f1440 97.2%);
+  border-radius: 15px;
+}

@@ -1,0 +1,29 @@
+#prodCategory{
+    padding: 30px 0 0 0;
+    .prodCategory{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 25px;
+            margin-bottom: 50px;
+            overflow-x: scroll;
+            width: 100%;  
+            &::-webkit-scrollbar{
+                width:0px;
+                height: 0px;
+              }
+            // &::-webkit-scrollbar-thumb{
+            //     background:transparent;
+            //   }
+            :hover{
+                border: 2px solid rgb(140, 255, 0);  
+            }
+            button{
+                padding: 15px 80px;
+                // width: 300px;
+                background: transparent;
+                border: 2px solid orange;
+                border-radius: 15px;
+            }
+    }
+}
